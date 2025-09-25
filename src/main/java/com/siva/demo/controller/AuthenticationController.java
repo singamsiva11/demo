@@ -10,9 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class AuthenticationController {
 
+//userservice
+
     @Autowired
     UserService userService;
-
+// siva
     @GetMapping("/public")
     public String publicAPi(){
         System.out.println("Inside public method : "+Thread.currentThread().getName());
